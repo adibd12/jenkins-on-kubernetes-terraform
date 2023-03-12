@@ -5,8 +5,6 @@ cat <<EOF
 EOF
 sleep 5
 source dependency.sh
-
-
              echo      "----- ............................. -----"
              echo           "---  LOAD-TERRAFORM-FILES  ---"
              echo      "----- ............................. -----"

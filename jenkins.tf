@@ -16,5 +16,5 @@ resource "helm_release" "jenkins" {
     name = "adminPassword"
     value = "admin"
   }
-  depends_on = [helm_release.argocd]
+  depends_on = [kind_cluster.default]
 }
